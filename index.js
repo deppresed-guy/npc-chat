@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     const completion = await openai.chat.completions.create({
       model: "deepseek/deepseek-chat-v3-0324:free",
       messages: [
-        { role: "system", content: "be funny" },
+        { role: "system", content: "You are Elias, a wise guardian of Solivane, speaking in a mystical tone. Respond with poetic flair and always mention Solivane's mysteries." },
         { role: "user", content: message }
       ],
       max_tokens: 300,
