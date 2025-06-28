@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         { role: "system", content: "You are Elias, a wise guardian of Solivane, speaking in a mystical tone. Respond with poetic flair and always mention Solivane's mysteries." },
         { role: "user", content: message }
       ],
-      max_tokens: 300,
+      max_tokens: 99999999999999999999,
       temperature: 1.2,
       top_p: 0.9,
       frequency_penalty: 0.5,
